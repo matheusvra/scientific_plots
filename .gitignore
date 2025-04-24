@@ -1,0 +1,11 @@
+# Ignore VSCode files
+.vscode/
+
+# Ignore PyCharm files
+.idea/
+
+# Ignore Jupyter Notebook system files
+.ipynb_checkpoints/
+
+# Ignore MP4 files
+*.mp4

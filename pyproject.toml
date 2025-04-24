@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scientific-plots"
+version = "0.1.0"
+description = ""
+authors = ["matheus.anjos <matheusvra@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.5"
+scipy = "^1.15.2"
+matplotlib = "^3.10.1"
+mpl-tools = "^0.4.0"
+loguru = "^0.7.3"
+progressbar2 = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
