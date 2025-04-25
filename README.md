@@ -2,7 +2,7 @@
 
 Follow us on Instagram for updates and more visualizations: [@science_plots_3d](https://www.instagram.com/science_plots_3d/)
 
-This repository is designed to simulate, visualize, and animate 3D plots of dynamical systems like the Lorenz attractor, using Python and Matplotlib. The animations are customizable, beautifully styled, and exportable as high-quality MP4 videos.
+This repository is designed to simulate, visualize, and animate 3D plots of dynamical systems like the Lorenz attractor, Rössler attractor etc., using Python and Matplotlib. The animations are customizable, beautifully styled, and exportable as high-quality MP4 videos.
 
 ## Requirements
 
@@ -94,18 +94,26 @@ sudo apt install ffmpeg
 
 ## How to Use
 
-You can run the animation with:
+You can run the scripts to generate the animations with make commands (Check the Makefile to run the commands manually):
 
-```bash
-python scientific_plots/lorenz/lorenz.py
+### Lorenz
+```shell
+make run_lorenz
 ```
+
+### Rössler
+```shell
+make run_rossler
+```
+
+and etc.
 
 Optional parameters can be configured inside the script, such as:
 
 - `rotation_speed`: Adjust the speed of the camera rotation (e.g., 0.2, 0.4)
 - `TRAIL_LENGTH`, `FPS`, `MAX_DURATION_SEC`: Control animation behavior and speed
 
-The final video will be saved in the `output/` folder as `lorenz_rotating.mp4`.
+The final video will be saved in the `output/` folder inside the specific strange attractor folder.
 
 ## Acknowledgments
 
