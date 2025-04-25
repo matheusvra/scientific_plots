@@ -1,5 +1,7 @@
 # 3D Plot Animator
 
+Follow us on Instagram for updates and more visualizations: [@science_plots_3d](https://www.instagram.com/science_plots_3d/)
+
 This repository is designed to simulate, visualize, and animate 3D plots of dynamical systems like the Lorenz attractor, using Python and Matplotlib. The animations are customizable, beautifully styled, and exportable as high-quality MP4 videos.
 
 ## Requirements
