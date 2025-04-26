@@ -106,6 +106,11 @@ make run_lorenz
 make run_rossler
 ```
 
+### Aizawa
+```shell
+make run_aizawa
+```
+
 and etc.
 
 Optional parameters can be configured inside the script, such as:

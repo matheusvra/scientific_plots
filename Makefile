@@ -14,3 +14,6 @@ run_rossler:
 	printf "Creating rossler video...\n"
 	poetry run python scientific_plots/rossler/rossler.py
 
+run_aizawa:
+	printf "Creating aizawa video...\n"
+	poetry run python scientific_plots/aizawa/aizawa.py
